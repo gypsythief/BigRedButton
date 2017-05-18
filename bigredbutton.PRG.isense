@@ -1,0 +1,47 @@
+DesktopWidth
+DesktopHeight
+Type: Window
+Parent: winMain
+END:
+spawnBigRedButton
+Type: Window
+Parent: winBigRedButton
+Type: Image
+BRBButton
+Type: Image
+BRBArrows
+END:
+coverScreen
+Type: Window
+Parent: screenCover
+Type: Image
+BRBCover
+Type: Label
+WellDone
+Type: Label
+Nuked
+Type: Label
+GetTeacher
+Type: Label
+DealWith
+Type: Button
+btnClose
+END:
+aboutMessage
+Type: Window
+Parent: winAbout
+Type: HyperLink
+Hyper4BRB
+Type: Label
+CreatedBy
+Type: Label
+CreatedWith
+Type: HyperLink
+HyperPWCT
+Type: HyperLink
+HyperInkscape
+Type: HyperLink
+HyperGimp
+END:
+centerAboutMessage
+moveActiveWindow
