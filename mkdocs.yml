@@ -1,6 +1,6 @@
 site_name: Big Red Button
 theme: 'windmill'
-docs_dir: sources
+docs_dir: docs-sources
 site_dir: docs
 extra:
  article_nav_top: false
