@@ -1,0 +1,44 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Program: Big Red Button\n\n\nhttps://github.com/gypsythief/BigRedButton\n\n\nAuthor: Gypsythief\n\n\nLicence: MIT\n\n\n\n\n1) Intro\n\n\nBig Red Button is a \"safety button\", a small and simple program to \nprovide a floating button on the screen which, when clicked, will cover\nthe screen with an image. It is intended for use in Primary Schools to\nallow pupils to easily hide the screen if they accidentally come across\nsomething that makes them uncomfortable. They can then get their\nteacher to deal with whatever it may be.\n\n\nIt was inspired by \"Hector's World Safety Button\", written by NetSafe\n(https://www.netsafe.org.nz/) a New Zealand e-safety organisation.\nUnfortunately, Hector's World was last updated for Windows Vista and no\nlonger runs on Windows 10; hence this replacement.\n\n\n\n\n2) Hacking\n\n\nThe software is publish under the MIT licence (see seperate licence\nfile for full details) which essentially says \"here you go, have fun\".\n\n\nAll software used to create this program is free-as-in-speech and\nfree-as-in-beer, so if you want to change things it won't cost you\nanything in licences.\n\n\nThe program was written in PWCT, so you will need this to edit the\nsource. PWCT is available \nfrom Sourceforge\n.\nThe file you will need to open is bigredbutton.ssf. The other files are\nworking files of PWCT, and are needed.\n\n\nThe graphics were created in \nInkscape\n\nbut should be editable in any vector graphics program. The SVG files \nbehind the graphics are in the \"Resource Files\" folder in the repo.\n\n\nGraphics tweaks and file conversions were performed with \nGIMP\n\n\nThe msi installer was created with \nWix Toolset\n. \nThe files for this are in the WixInstallerFiles directory. Only wander \nin here if you have are truely masochistic. \n\n\nIf you would like to simply change the graphics without getting\ninto editing the source, you can do this by simply replacing any of the\nthree image files bundled with the application. You will have to keep\nthe name, file type and dimensions the same for each one:\n\n\nBigRedButton.png : the main floating button. 70px by 70px\n\n\nmoveArrows.png : the little grab-handle icon. 20px by 20px\n\n\nScreenCover.jpg : the image that covers the screen. 1920px by 1080px\n\n\n\n\n3) The Release\n\n\nThere are two release files available.\n\n\n\n\n\n\nThe zip contains the program plus its associated graphics files.\nThis is fully portable, and will run without installation from anywhere.\nA manual install might consist of dumping the extracted archive into\n%PROGRAMFILES% and creating a link into the Startup directory of the\nStart Menu. Uninstallation is just a case of deleting the files again.\n\n\n\n\n\n\nThe msi is intended for deployment via Group Policy onto a domain\nnetowrk. As such, it is non-interactive and just runs. It creates a\n\"Big Red Button\" folder in %PROGRAMFILES% and copies the files into\nthat. It also creates a \"Big Red Button\" Start Menu entry with a link\nto the program, and a Start Up shortcut. Being an MSI, it will also\ngenerate any required registry entries. It registers to \"Programs and\nFeatures\" for uninstallation.\n\n\n\n\n\n\nIf you don't trust MSI's you could easily install via method 1) by pushing\nthe files out onto domain client computers using Group Policy\nPreferences.",
+            "title": "Home"
+        },
+        {
+            "location": "/#program-big-red-button",
+            "text": "",
+            "title": "Program: Big Red Button"
+        },
+        {
+            "location": "/#httpsgithubcomgypsythiefbigredbutton",
+            "text": "",
+            "title": "https://github.com/gypsythief/BigRedButton"
+        },
+        {
+            "location": "/#author-gypsythief",
+            "text": "",
+            "title": "Author: Gypsythief"
+        },
+        {
+            "location": "/#licence-mit",
+            "text": "",
+            "title": "Licence: MIT"
+        },
+        {
+            "location": "/#1-intro",
+            "text": "Big Red Button is a \"safety button\", a small and simple program to \nprovide a floating button on the screen which, when clicked, will cover\nthe screen with an image. It is intended for use in Primary Schools to\nallow pupils to easily hide the screen if they accidentally come across\nsomething that makes them uncomfortable. They can then get their\nteacher to deal with whatever it may be.  It was inspired by \"Hector's World Safety Button\", written by NetSafe\n(https://www.netsafe.org.nz/) a New Zealand e-safety organisation.\nUnfortunately, Hector's World was last updated for Windows Vista and no\nlonger runs on Windows 10; hence this replacement.",
+            "title": "1) Intro"
+        },
+        {
+            "location": "/#2-hacking",
+            "text": "The software is publish under the MIT licence (see seperate licence\nfile for full details) which essentially says \"here you go, have fun\".  All software used to create this program is free-as-in-speech and\nfree-as-in-beer, so if you want to change things it won't cost you\nanything in licences.  The program was written in PWCT, so you will need this to edit the\nsource. PWCT is available  from Sourceforge .\nThe file you will need to open is bigredbutton.ssf. The other files are\nworking files of PWCT, and are needed.  The graphics were created in  Inkscape \nbut should be editable in any vector graphics program. The SVG files \nbehind the graphics are in the \"Resource Files\" folder in the repo.  Graphics tweaks and file conversions were performed with  GIMP  The msi installer was created with  Wix Toolset . \nThe files for this are in the WixInstallerFiles directory. Only wander \nin here if you have are truely masochistic.   If you would like to simply change the graphics without getting\ninto editing the source, you can do this by simply replacing any of the\nthree image files bundled with the application. You will have to keep\nthe name, file type and dimensions the same for each one:  BigRedButton.png : the main floating button. 70px by 70px  moveArrows.png : the little grab-handle icon. 20px by 20px  ScreenCover.jpg : the image that covers the screen. 1920px by 1080px",
+            "title": "2) Hacking"
+        },
+        {
+            "location": "/#3-the-release",
+            "text": "There are two release files available.    The zip contains the program plus its associated graphics files.\nThis is fully portable, and will run without installation from anywhere.\nA manual install might consist of dumping the extracted archive into\n%PROGRAMFILES% and creating a link into the Startup directory of the\nStart Menu. Uninstallation is just a case of deleting the files again.    The msi is intended for deployment via Group Policy onto a domain\nnetowrk. As such, it is non-interactive and just runs. It creates a\n\"Big Red Button\" folder in %PROGRAMFILES% and copies the files into\nthat. It also creates a \"Big Red Button\" Start Menu entry with a link\nto the program, and a Start Up shortcut. Being an MSI, it will also\ngenerate any required registry entries. It registers to \"Programs and\nFeatures\" for uninstallation.    If you don't trust MSI's you could easily install via method 1) by pushing\nthe files out onto domain client computers using Group Policy\nPreferences.",
+            "title": "3) The Release"
+        }
+    ]
+}
