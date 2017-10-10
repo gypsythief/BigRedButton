@@ -1,9 +1,7 @@
-# Program: Big Red Button
-# Home page: https://github.com/gypsythief/BigRedButton
-# Author: Gypsythief
-# Licence: MIT
+## [Big Red Button](https://github.com/gypsythief/BigRedButton)
+#### Licence: MIT
 
-************************************************************************
+---
 
 1) Intro
 
@@ -14,12 +12,12 @@ allow pupils to easily hide the screen if they accidentally come across
 something that makes them uncomfortable. They can then get their
 teacher to deal with whatever it may be.
 
-It was inspired by "Hector's World Safety Button", written by NetSafe
-(https://www.netsafe.org.nz/) a New Zealand e-safety organisation.
+It was inspired by "[Hector's World Safety Button](https://www.netsafe.org.nz/)"
+, written by NetSafe, a New Zealand e-safety organisation.
 Unfortunately, Hector's World was last updated for Windows Vista and no
 longer runs on Windows 10; hence this replacement.
 
-************************************************************************
+---
 
 2) Hacking
 
@@ -32,22 +30,19 @@ All software used to create this program is free-as-in-speech and
 free-as-in-beer, so if you do want to change things, it won't cost you
 anything in licences.
 
-The program was written in PWCT, so you will need this to edit the
-source. PWCT is available at http://doublesvsoop.sourceforge.net
-The file you will need to open is bigredbutton.ssf. The other files are
-working files of PWCT, and are needed.
+The program was written in [PWCT](http://doublesvsoop.sourceforge.net),
+so you will need this to edit the source. The file you will need to open
+is bigredbutton.ssf. The other files are working files of PWCT, and are
+needed.
 
-The graphics were created in Inkscape, available from
-https://inkscape.org but should be editable in any vector graphics
-program. The SVG files behind the graphics are in the "Resource Files"
-folder on the website.
+The graphics were created in [Inkscape](https://inkscape.org) but should
+be editable in any vector graphics program. The SVG files behind the
+graphics are in the "Resource Files" folder on the website.
 
-Graphics tweaks and file conversions were performed with GIMP, available
-from http://www.gimp.org
+Graphics tweaks and file conversions were performed with [GIMP](http://www.gimp.org)
 
-The msi installer was created with Wix Toolset, available from
-http://wixtoolset.org. The files for this are in the WixInstallerFiles
-directory. Only wander in here if you have are truely masochistic. 
+The msi installer was created with [Wix Toolset](http://wixtoolset.org)
+The files for this are in the WixInstallerFiles directory.
 
 If you would like to simply change the graphics without getting
 into editing the source, you can do this by simply replacing any of the
@@ -60,7 +55,7 @@ moveArrows.png : the little grab-handle icon. 20px by 20px
 
 ScreenCover.jpg : the image that covers the screen. 1920px by 1080px
 
-************************************************************************
+---
 
 3) The Release
 
