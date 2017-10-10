@@ -1,5 +1,5 @@
-## [Big Red Button](https://github.com/gypsythief/BigRedButton)
-#### Licence: MIT
+#### [Big Red Button on Github](https://github.com/gypsythief/BigRedButton)
+##### Licence: MIT
 
 ---
 
